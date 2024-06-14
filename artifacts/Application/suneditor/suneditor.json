@@ -1,0 +1,342 @@
+{
+	"id": "fc49044a-3ef8-4aed-ad15-9420167f039d",
+	"createdAt": "2024-06-10T09:49:38.000Z",
+	"createdBy": "avinash.ambalgi@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "3af2f524-14a6-49c6-ce38-312698326c81",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "e9fe0995-b15c-4aff-9862-dffd5ba6d85f",
+					"fieldName": "PageRTE",
+					"fieldParent": "3af2f524-14a6-49c6-ce38-312698326c81",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Editor",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "titleAlignment",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "c11253a4-9016-497a-cfd5-d9781af7217d",
+							"fieldName": "editorDoc",
+							"fieldParent": "e9fe0995-b15c-4aff-9862-dffd5ba6d85f",
+							"fieldType": "sap.m.FlexBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "fieldGroupIds",
+									"grouping": "Properties",
+									"value": "emailTemplateEditor",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "d9c239a4-9997-4e7a-9422-a675534d65ff",
+							"fieldName": "oBarFooter",
+							"fieldParent": "e9fe0995-b15c-4aff-9862-dffd5ba6d85f",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setFooter",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "60e84732-6007-4d8d-c593-baf42b754609",
+									"fieldName": "Left",
+									"fieldParent": "d9c239a4-9997-4e7a-9422-a675534d65ff",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentLeft",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "2efd11a4-b2af-4e93-aac8-2cf654f7cdca",
+											"fieldName": "btnShowData",
+											"fieldParent": "60e84732-6007-4d8d-c593-baf42b754609",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Test Show Data",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/btnShowData/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "a6ac8c59-d2e7-4c5b-e7a8-63c320d5c590",
+									"fieldName": "Right",
+									"fieldParent": "d9c239a4-9997-4e7a-9422-a675534d65ff",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentRight",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "e06c2c7a-4bf9-491c-ce16-c04a06a7964f",
+											"fieldName": "toggleEdit",
+											"fieldParent": "a6ac8c59-d2e7-4c5b-e7a8-63c320d5c590",
+											"fieldType": "sap.m.ToggleButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Emphasized",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Edit",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.ToggleButton/toggleEdit/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "7cb01245-157e-4f8c-ec61-85d934b8ff44",
+											"fieldName": "btnSave",
+											"fieldParent": "a6ac8c59-d2e7-4c5b-e7a8-63c320d5c590",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Accept",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Save",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/btnSave/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "55014c5f-a0d7-4358-f5bf-12cf901fc978",
+					"fieldName": "appData",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model.object",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Generic Object",
+					"bindingType": "u",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "606f0ee6-6e49-4629-a6ef-4c606261e473",
+					"fieldName": "RTE",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/RTE.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "d8abbb6c-de7e-452d-84d4-f13a836c64b9",
+					"fieldName": "RTE_INIT",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/RTE_INIT.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.06.14.0947",
+	"application": "suneditor",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "1.108",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "file:///header.html",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "a9d91a4d-3e13-422a-bfe4-e2562b9b76aa"
+}

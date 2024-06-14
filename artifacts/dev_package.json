@@ -1,0 +1,51 @@
+{
+	"id": "a9d91a4d-3e13-422a-bfe4-e2562b9b76aa",
+	"createdAt": "2024-06-14T08:45:46.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-suneditor"
+	},
+	"name": "neptunesoftware-dxp-abb-suneditor",
+	"description": null,
+	"ver": "24.06.14.0948",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "fc49044a-3ef8-4aed-ad15-9420167f039d",
+			"application": "suneditor",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "a9d91a4d-3e13-422a-bfe4-e2562b9b76aa"
+			}
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}
